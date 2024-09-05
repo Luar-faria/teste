@@ -1,0 +1,114 @@
+@charset "UTF-8";
+ @font-face{
+  font-family:'Android';
+  src: url('fontes/droid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+  margin: 0px;
+  background-color: #E2FDFF;
+  border: 1px solid black;
+ }
+header{
+  margin: 0em;
+  background-image: linear-gradient(to bottom,#8CD790, #77AF9C);
+  border:0.0625em solid black;
+  width:100%;
+  
+}
+header > h1 {
+  color:white;
+}
+header > p {
+  color:white;
+  text-align: center;
+}
+header > a {
+  text-decoration: none;
+  color:white;
+  text-align: left ;
+}
+.link::after{
+  content: ' ✠'  ;
+  text-decoration: none;
+}
+header > a:hover{
+  text-decoration: underline;
+}
+#titulo{
+  text-align: center;
+}
+main{
+  margin: 0 auto;
+  max-width: 800px;
+  border:0.0625em solid black;
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+}
+main > h1{
+  font-family: 'Android', Times, Serif;
+  padding: 3px;
+  color:#285943;
+}
+main > h2{
+  font-family: 'Android', Times, Serif;
+  padding:3px;
+  color:#285943;
+}
+main > p{
+  text-indent: 15px;
+  font-family: 'Quicksand', Sans-Serif;
+}
+.foto{
+  width:95%;
+  margin: 0px auto;
+  display: block;
+}
+.foto2{
+display: block;
+margin: 0px auto;
+}
+section{
+  background-color:#285943;
+  max-width:800px;
+  width:100%;
+  margin:0px auto;
+}
+#video{
+  width:100%;
+  max-width:1200px;
+  margin:50px 0px;
+}
+article{
+  background-color:#D7FFF1;
+  margin: 10px auto;
+  width:95%;
+  border: 1px solid black;
+  max-width: 800px;
+  border-radius: 5px;
+}
+article > p#extra{
+  background-color: #AAFCB8;
+  border: 1px solid black;
+  margin: 0px;
+}
+footer{
+  background-color:#285943;
+  border:2px solid black;
+  font-family: 'Quicksand', Sans-Serif;
+}
+p{
+  text-align: justify;
+  padding: 0.625em;
+  font-family: Times;
+}
+h2{
+  background-image: linear-gradient(to right,#D7FFF1, white);
+}
+.internal{
+  color:#8CD790;
+}
+article > p{
+  text-indent:15px;
+}
